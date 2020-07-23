@@ -1,4 +1,4 @@
-let x = 0
+let x = randint(0, 4)
 let y = randint(0, 4)
 basic.forever(function () {
     basic.pause(100)
