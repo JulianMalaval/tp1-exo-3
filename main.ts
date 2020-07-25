@@ -6,7 +6,7 @@ basic.forever(function () {
     y += 1
     led.plot(x, y)
     if (y > 4) {
-        y = -1
+        y = randint(-1, 0)
         x = randint(0, 4)
     }
     if (led.point(x, y)) {
